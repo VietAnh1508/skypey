@@ -3,6 +3,7 @@ import "./User.css";
 
 const User = ({ user }) => {
   const { name, profile_pic, status } = user;
+
   return (
     <div className="User">
       <img src={profile_pic} alt={name} className="User__pic" />
