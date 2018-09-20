@@ -17,7 +17,7 @@ const MessageInput = ({ value }) => {
   };
 
   return (
-    <form className="Message" onSubmit={handleSubmit}>
+    <form className="Message__form" onSubmit={handleSubmit}>
       <input
         className="Message__input"
         onChange={handleChange}
